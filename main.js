@@ -36,6 +36,7 @@ function draw(){
     background('#393E46');
     fill ("#FDF6F0");
     stroke ("#FDF6F0");
-    text ("school",noseX,noseY,difference);
+    text ("school",noseX,noseY);
+    textSize(difference)
     document.getElementById("square_sides").innerHTML="Width and height of the text ="+difference+"px"
 }
